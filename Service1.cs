@@ -26,7 +26,7 @@ namespace comdata_activiterDetector
 
             ws.Start();
 
-            ws.AddWebSocketService<SendMove>("/Move");
+            ws.AddWebSocketService<MessageListener>("/Move");
             this.startListen();
         }
 

@@ -11,3 +11,17 @@ C:\Users\taimourya\Desktop\freelance\comdata_activiterDetector\bin\Debug\websock
 C:\Users\taimourya\Desktop\freelance\comdata_activiterDetector\obj\Debug\comdata_activiterDetector.csproj.CopyComplete
 C:\Users\taimourya\Desktop\freelance\comdata_activiterDetector\obj\Debug\comdata_activiterDetector.Form2.resources
 C:\Users\taimourya\Desktop\freelance\comdata_activiterDetector\obj\Debug\comdata_activiterDetector.Service1.resources
+C:\Users\taimourya\Desktop\comdata\comdata_activiterDetector\bin\Debug\comdata_activiterDetector.exe
+C:\Users\taimourya\Desktop\comdata\comdata_activiterDetector\bin\Debug\comdata_activiterDetector.pdb
+C:\Users\taimourya\Desktop\comdata\comdata_activiterDetector\bin\Debug\websocket-sharp.dll
+C:\Users\taimourya\Desktop\comdata\comdata_activiterDetector\obj\Debug\comdata_activiterDetector.csproj.AssemblyReference.cache
+C:\Users\taimourya\Desktop\comdata\comdata_activiterDetector\obj\Debug\comdata_activiterDetector.Form1.resources
+C:\Users\taimourya\Desktop\comdata\comdata_activiterDetector\obj\Debug\comdata_activiterDetector.Form2.resources
+C:\Users\taimourya\Desktop\comdata\comdata_activiterDetector\obj\Debug\comdata_activiterDetector.Properties.Resources.resources
+C:\Users\taimourya\Desktop\comdata\comdata_activiterDetector\obj\Debug\comdata_activiterDetector.Service1.resources
+C:\Users\taimourya\Desktop\comdata\comdata_activiterDetector\obj\Debug\comdata_activiterDetector.csproj.GenerateResource.cache
+C:\Users\taimourya\Desktop\comdata\comdata_activiterDetector\obj\Debug\comdata_activiterDetector.csproj.CoreCompileInputs.cache
+C:\Users\taimourya\Desktop\comdata\comdata_activiterDetector\obj\Debug\comdata_activiterDetector.csproj.CopyComplete
+C:\Users\taimourya\Desktop\comdata\comdata_activiterDetector\obj\Debug\comdata_activiterDetector.exe
+C:\Users\taimourya\Desktop\comdata\comdata_activiterDetector\obj\Debug\comdata_activiterDetector.pdb
+C:\Users\taimourya\Desktop\comdata\comdata_activiterDetector\obj\Debug\comdata_activiterDetector.form_pause.resources
