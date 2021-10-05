@@ -33,6 +33,7 @@ namespace comdata_activiterDetector
             this.Left = Screen.PrimaryScreen.WorkingArea.Right - ((Screen.PrimaryScreen.WorkingArea.Size.Width + this.Width)/ 2); 
             this.Top = 0;
             this.TopMost = true;
+            this.Height = 80;
 
             StateManager.addObservable(this);
         }
@@ -63,11 +64,6 @@ namespace comdata_activiterDetector
             cansend = true;
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            form_pause form = new form_pause(this);
-            form.ShowDialog();
-        }
 
         public void changeVisibility(bool isVisible)
         {
@@ -104,17 +100,17 @@ namespace comdata_activiterDetector
                 this.Invoke(new MethodInvoker(delegate () {
                     if(tpause > 0)
                     {
-                        button1.Visible = false;
-                        button2.Visible = true;
+                        pctPause.Visible = false;
+                        pctStop.Visible = true;
                     }
                     else
                     {
-                        button1.Visible = true;
-                        button2.Visible = false;
+                        pctPause.Visible = true;
+                        pctStop.Visible = false;
                     }
-                    label1.Text = tactif.ToString();
-                    label2.Text = tpause.ToString();
-                    label3.Text = tinactif.ToString();
+                    label1.Text = TimeSpan.FromSeconds(tactif).ToString();
+                    label2.Text = TimeSpan.FromSeconds(tpause).ToString();
+                    label3.Text = TimeSpan.FromSeconds(tinactif).ToString();
                 }));
             }
             else
@@ -125,9 +121,28 @@ namespace comdata_activiterDetector
             }
         }
 
-        private void button2_Click(object sender, EventArgs e)
+
+        private void pictureBox2_Click(object sender, EventArgs e)
         {
             ws.WebSocketServices["/"].Sessions.Broadcast("stopPause");
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            form_pause form = new form_pause(this);
+            form.ShowDialog();
+        }
+
+        private void pictureBox2_Click_1(object sender, EventArgs e)
+        {
+            if (this.Height >= 80)
+            {
+                this.Height = 10;
+            }
+            else
+            {
+                this.Height = 80;
+            }
         }
     }
 }

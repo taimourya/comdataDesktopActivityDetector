@@ -120,5 +120,14 @@
   <ItemGroup>
     <None Include="Resources\logo-comdata.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stop-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\round-play-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minus.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
